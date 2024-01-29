@@ -17,10 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="h-svh ">
-        <Navbar links={["hello", "world"]}></Navbar>
-        {children}
-      </body>
+      <body className="h-svh ">{children}</body>
     </html>
   );
 }

@@ -1,7 +1,19 @@
+"use client";
+
+import { request } from "http";
+import { Router } from "next/router";
+import { NextResponse } from "next/server";
+
 export default function Home() {
-  return (
-    <main className="h-full">
-      <h1>hello world</h1>
-    </main>
-  );
+  const hasAcc = localStorage.getItem("Acc");
+  if (hasAcc == null) {
+    return NextResponse.redirect(new URL("/login"));
+  }
 }
+// <Image
+//     width={2400}
+//     height={1080}
+//     alt="hello"
+//     src="/Selection_001.png"
+//     className="absolute"
+// />
