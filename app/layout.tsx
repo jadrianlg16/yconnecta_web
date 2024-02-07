@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`h-svh flex ${inter.className} antialiased `} >
+      <body className={`h-svh flex ${inter.className} antialiased scroll-smooth `} >
         {children}
       </body>
     </html>
