@@ -1,1 +1,1 @@
-this is the admin page for the yconnect app
+this is the admin page for the yconnect app.
