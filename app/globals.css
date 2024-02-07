@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 @import "~@flaticon/flaticon-uicons/css/all/all";
+
+/* FILEPATH: /c:/Users/jcsg6/Documentos/Codes/yconnecta_web/app/globals.css */
+/* BEGIN: scrollbar-styles */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4AA794;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3e8e7e;
+}
+/* END: scrollbar-styles */

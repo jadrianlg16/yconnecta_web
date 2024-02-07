@@ -8,7 +8,7 @@ import Image from "next/image";
 const AdminNavbar = () => {
   const pathname = usePathname();
   return (
-    <div className="h-screen flex align-middle flex-col bg-black w-[15%] justify-between">
+    <div className="h-screen flex align-middle flex-col bg-secondary-light min-w-[14%] w-[14%] max-w-[14%] justify-between">
       <div className="flex flex-col">
         <Image
           src={yCoIcon}
@@ -23,9 +23,9 @@ const AdminNavbar = () => {
             <Link
               href={route.path}
               key={route.name}
-              className={`text-white
-            ${pathname === route.path && "bg-white text-black"}
-            flex ms-3 me-5 p-2 flex-row mb-2 align-center justify-start gap-4 hover:bg-white hover:text-black rounded-md`}
+              className={`
+            ${pathname === route.path ? " bg-white text-secondary-light" : "text-white"}
+            flex ms-3 me-5 p-2 flex-row mb-2 align-center justify-start gap-4 hover:bg-white hover:text-secondary-light rounded-md`}
             >
               <i className={`${route.icon} text-2xl leading-none`} />
               <p className="text-md p-0  m-0" key={route.name}>

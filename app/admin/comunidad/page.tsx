@@ -1,7 +1,7 @@
 const Comunidad = () => {
     return (
-        <div>
-            <h1>Comunidad</h1>
+        <div className="w-full h-full flex flex-col">
+            Comunidad
         </div>
     )
 }
