@@ -1,1 +1,1 @@
-this is the admin page for the yconnect app
+This is The Web Development of The yConecta Application
