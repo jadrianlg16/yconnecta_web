@@ -53,7 +53,7 @@ const PublicacionesPage = () => {
         <button className="btn btn-primary me-4 flex flex-row items-center hover:text-secondary-light text-white font-semibold gap-2 text-2xl">
         <i className="fi fi-sr-add-image mt-1"/>
           Crear publicación
-          </button>
+          </button>  
       </div>
       <div className="flex flex-row flex-wrap justify-between w-full gap-8 px-3 mt-5 max-h-[80vh] overflow-auto">
         {publications.map((publication, index) => (
